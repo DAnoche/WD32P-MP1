@@ -1,5 +1,6 @@
 // Import our custom CSS
 import "../styles/styles.scss";
+import "../styles/styles.css";
 
 // Import all of Bootstrap's JS
 import * as bootstrap from "bootstrap";
