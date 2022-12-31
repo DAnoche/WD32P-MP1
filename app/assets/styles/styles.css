@@ -10,3 +10,7 @@
 .bg-light {
   background-color: transparent !important;
 }
+
+#hero {
+  padding: 60px 0;
+}
