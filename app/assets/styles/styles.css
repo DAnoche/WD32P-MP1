@@ -6,3 +6,7 @@
 .mainLogo {
   color: #274266 !important;
 }
+
+.bg-light {
+  background-color: transparent !important;
+}
