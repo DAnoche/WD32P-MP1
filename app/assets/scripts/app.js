@@ -10,3 +10,9 @@ import Alert from "bootstrap/js/dist/alert";
 
 // or, specify which plugins you need:
 import { Tooltip, Toast, Popover } from "bootstrap";
+
+//Tooltip script
+const tooltips = document.querySelectorAll(".ttips");
+tooltips.forEach((t) => {
+  new bootstrap.Tooltip(t);
+});
