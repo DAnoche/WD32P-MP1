@@ -7,6 +7,11 @@
   );
 }
 
+.heroBG {
+  background-image: url(../images/jpeg/heroBg.jpg);
+  background-size: cover;
+}
+
 .gradientBg {
   background: rgb(39, 66, 102);
   background: radial-gradient(
