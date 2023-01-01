@@ -6,13 +6,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const fse = require("fs-extra");
 
-const postCSSPlugins = [
-  require("postcss-import"),
-  require("postcss-mixins"),
-  require("postcss-simple-vars"),
-  require("postcss-nested"),
-  require("autoprefixer"),
-];
+const postCSSPlugins = [require("postcss-import"), require("autoprefixer")];
 
 class RunAfterCompile {
   apply(compiler) {

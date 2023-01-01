@@ -28,7 +28,7 @@ section {
 
 /* Hero Section */
 .heroBG {
-  background-image: url(../images/jpeg/heroBg.jpg);
+  background-image: url("assets/images/jpeg/heroBg.jpg");
   background-size: cover;
 }
 
@@ -44,7 +44,7 @@ section {
 
 /* Footer Section */
 .footerBG {
-  background-image: url(../images/jpeg/footerBg.jpg);
+  background-image: url("assets/images/jpeg/footerBg.jpg");
   background-size: cover;
 }
 
