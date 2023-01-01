@@ -375,12 +375,21 @@
                 <option value="other">Other query</option>
               </select>
 
-              <label for="query" class="form-label">Your query...</label>
-              <textarea
-                id="query"
-                class="form-control"
-                style="height: 150px"
-              ></textarea>
+              <!-- Floating text area -->
+              <div class="form-floating mb-4 mt-5">
+                <textarea
+                  id="query"
+                  class="form-control"
+                  style="height: 150px"
+                ></textarea>
+                <label for="query" class="form-label">Your query...</label>
+              </div>
+
+              <div class="mb-4 text-center">
+                <button type="submit" class="btn btn-lg btn-secondary">
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         </div>
